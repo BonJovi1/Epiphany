@@ -2,7 +2,7 @@ Flask QUIZ APP Version 18.0
 
 GENERAL USAGE NOTES
 -------------------
-ENSURE THE PRESENCE OF THE FOLLOWING PYTHON LIBRARIES:
+Ensure the presence of the following Python libraries:
 
 - SQLALCHEMY
 - FLASK
@@ -11,30 +11,30 @@ ENSURE THE PRESENCE OF THE FOLLOWING PYTHON LIBRARIES:
 
 GETTING STARTED
 ---------------
-BOOT UP THE TERMINAL, AND GET INTO THE FLASK APP DIRECTORY
-RUN THE FOLLOWING COMMANDS:
+Boot up the terminal, and get into the Flask app directory.
+Run the following commands:
 
 1. `python dummy.py`
 2. `python database.py`
 
-NOW THE WEB APP IS HOSTED AT http://localhost:5000/
+Now the web app is hosted at http://localhost:5000/
 
 
 WORKING AND FUNCTIONALITIES:
 ----------------------------
-THIS APP RUNS ON PYTHON 2.7, USING FLASK AND SQLITE. BY RUNNING dummy.py WE MAKE A BASE SQL DATABASE AND WE BEGIN THE PROGRAM.
+This app runs on python 2.7, using Flask and SQLite. By running dummy.py we make a base SQL database and we begin the program.
 
-THE FOLLOWING FUNCTIONALITIES HAVE BEEN IMPLEMENTED:
+The following functionalities have been implemented:
 
--ABILTY TO TAKE A QUIZ AND VIEW THE CORRESPONDING LEADERBOARD
+-Ability to take a quiz and view the corresponding leaderboard
 
--STATE RESTORATION SUCH THAT BY LOGGING OUT IN BETWEEN, WE CAN CONTINUE QUIZ ON LOGGING BACK
+-State restoration such that by logging out in between, we can continue quiz on logging back
 
--ADMIN CAN ADD AND MODIFY QUIZZES UNDER SUBTOPICS
+-Admin can add and modify quizzes under subtopics
 
--A 50-50 HELPINE FEATURE
+-A 50-50 helpine feature
 
--USER CAN VIEW USER RELATED INFORMATION AT THE PROFILE PAGE
+-User can view user related information at the profile page
 
--QUIZZES FEATURE SINGLE CORRECT AND MULTIPLE CORRECT TYPES 
+-Quizzes feature single correct and multiple correct types 
 
